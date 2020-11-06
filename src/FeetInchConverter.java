@@ -4,14 +4,14 @@ public class FeetInchConverter {
     calculate inches to centimeter by overloading methods. 2nd method (inches parameter) uses 1st method (2 parameters)*/
     public static void main(String[] args) {
 
-        double centimetersOperation = calcFeetAndInchesToCentimeters(10.2, 0);
-        //validating parameters by using the returned roundOff line 28
-        if (centimetersOperation < 0.0) {
+        double centimetersOperation = calcFeetAndInchesToCentimeters(-1.2, 0);
+        //validating parameters by using the lines 24-25
+        if (centimetersOperation < 0) {
             System.out.println("Invalid parameters");
         }
-        double inchToFeetToCm = calcFeetAndInchesToCentimeters(16);
-        //validating parameters
-        if (inchToFeetToCm < 0.0) {
+        double inchToFeetToCm = calcFeetAndInchesToCentimeters(5);
+        //validating parameters by using lines 39-40
+        if (inchToFeetToCm < 0) {
             System.out.println("Invalid parameters");
         }
     }
