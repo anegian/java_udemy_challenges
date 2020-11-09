@@ -1,3 +1,5 @@
+package FeetInchConverter;
+
 public class FeetInchConverter {
 
     /** calculate feet and inches to centimeter by using 1st method (2 parameters)
