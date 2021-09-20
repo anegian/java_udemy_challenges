@@ -23,7 +23,7 @@ public class ReadingInputChallenge {
                 int number = scanner.nextInt();
 
 
-                System.out.println("Voted: " + number);
+                System.out.println("Entered: " + number);
                 sumCount += number;
 
             } else {
